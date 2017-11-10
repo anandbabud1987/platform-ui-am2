@@ -1,0 +1,59 @@
+
+mat-sidenav {
+  width: 800px;
+}
+
+.side-nave-button mat-button {
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 100%;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 2px;
+}
+
+.mat-button, .mat-icon-button {
+    background: 0 0;
+}
+
+.example-sidenav-fab-container {
+  width: 100%;
+  height: 1000px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-fab-container mat-sidenav {
+  max-width: 200px;
+}
+
+.example-sidenav-fab-container .mat-sidenav-content,
+.example-sidenav-fab-container mat-sidenav {
+  display: flex;
+  overflow: visible;
+}
+
+.example-scrolling-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.example-fab.mat-mini-fab {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+

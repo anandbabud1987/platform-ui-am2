@@ -1,0 +1,17 @@
+
+<mat-sidenav-container class="example-sidenav-fab-container">
+  <mat-sidenav #sidenav mode="side" opened="true">
+  <table width='100%'>
+  <tr><td><button mat-button class='side-nave-button'>Add</button></td></tr>
+  <tr><td><button mat-button with='100%'>Add</button></td></tr>
+  <tr><td><button mat-button with='100%'>Add</button></td></tr>
+  <tr><td><button mat-button with='100%'>Add</button></td></tr>
+  </table>
+  </mat-sidenav>
+  <button mat-mini-fab class="example-fab" (click)="sidenav.toggle()">
+    <mat-icon>add</mat-icon>
+  </button>
+  <div class="example-scrolling-content">
+   Primary
+  </div>
+</mat-sidenav-container>
